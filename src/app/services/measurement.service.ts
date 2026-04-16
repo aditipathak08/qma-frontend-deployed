@@ -16,7 +16,7 @@ import {
   providedIn: 'root'
 })
 export class MeasurementService {
-  private readonly BASE_URL = 'https://qma-backend-3ww0.onrender.com/api';
+  private readonly BASE_URL = '/api';
 
   constructor(private http: HttpClient) {}
 

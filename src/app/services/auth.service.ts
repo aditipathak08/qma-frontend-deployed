@@ -9,7 +9,7 @@ import { LoginRequest, LoginResponse, RegisterRequest, RegisterResponse } from '
 })
 export class AuthService {
   private readonly TOKEN_KEY = 'auth_token';
-  private readonly API_URL = 'https://qma-backend-3ww0.onrender.com/api/auth'; 
+  private readonly API_URL = '/api/auth'; 
   
   private userEmail = signal<string | null>(null);
   private token = signal<string | null>(null);
